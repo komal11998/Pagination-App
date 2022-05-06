@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import ReactPaginate from "react-paginate";
 
 const Pagination = () => {
-  
   const [users, setUsers] = useState([]);
   const [pageNumber, setPageNumber] = useState(0);
 
